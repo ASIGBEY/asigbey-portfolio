@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 11px 21px;
+}
+
+.header .person-name, .head .name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation-links nav, .related-links nav {
+    font-size: 19px;
+}
+
+.navigation-links nav a, .related-links nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navigation-links nav a:hover, .related-links nav a:hover {
+    text-decoration: underline;
+}
+
+.content-area, .main-area, .main-area-contact {
+    padding: 20px;
+}
+
+.about-me, .contact-form {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.footer, .copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.headshot img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
