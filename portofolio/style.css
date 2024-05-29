@@ -4,58 +4,109 @@ body {
     padding: 0;
 }
 
-.header, .head {
+h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+/* Header styles */
+.main-header {
+    background-color: #f8f8f8;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
-    padding: 11px 21px;
+    border-bottom: 1px solid #ddd;
 }
 
-.header .person-name, .head .name {
-    font-size: 24px;
-    font-weight: bold;
+.person-title h2 {
+    margin: 0;
 }
 
-.navigation-links nav, .related-links nav {
-    font-size: 19px;
-}
-
-.navigation-links nav a, .related-links nav a {
-    color: white;
-    text-decoration: none;
+.nav-links nav a {
     margin: 0 10px;
 }
 
-.navigation-links nav a:hover, .related-links nav a:hover {
-    text-decoration: underline;
-}
-
-.content-area, .main-area, .main-area-contact {
+/* Main content styles */
+.main-content {
     padding: 20px;
 }
 
-.about-me, .contact-form {
+.about-section {
     margin-bottom: 20px;
 }
 
-.project {
-    margin-bottom: 20px;
-}
-
-.footer, .copyright {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-.headshot img {
-    width: 200px;
-    height: auto;
+.profile-image img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Contact section styles */
+.contact-section {
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Footer styles */
+.main-footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-info {
+    margin: 0;
+}
+
+/* Projects section styles */
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.individual-project {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.description-box {
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.description-details h4 {
+    margin: 0;
 }
